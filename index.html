@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<HTML lang="ru">
+<HEAD>
+   	<meta charset="utf-8">
+    <meta name="description" content="Генератор">
+    <title>Жизнь</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="add.js"></script>
+</HEAD>
+   <body onload="preventSelection(document.getElementById('mLife'))">
+      <h1>Игра Жизнь</h1>
+      <!-- Матрица игры -->
+      <script language=JavaScript type="text/javascript">Life.putM();</script>
+      <!-- Управление -->
+      <form>
+         <input id="start" type="button" value="Старт" onclick="Life.startStop()">
+         <input id="clear" type="button" value="Очистить" onclick="Life.clear()">
+         <div>
+         	Номер поколения: <span id="time">0</span>
+         </div>
+      </form>
+   </body>
+</HTML>
+

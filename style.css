@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border: 1px solid grey;
+}
